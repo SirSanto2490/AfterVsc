@@ -1,4 +1,9 @@
-var="Soy una variable"
 
+nombre = 'Daniel'
 
-print(f'Hola {var}')
+if nombre == 'Daniel':
+    
+    print(f'Bienvenido {nombre}')
+    
+else:
+    print('Nombre no encontrado')
